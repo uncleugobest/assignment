@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>4K NEWS</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>    
+    <body style="background-color:lightgrey;">
+        <header>
+            <h1 style="color:blue;">4K NEWS</h1>
+            <h2>On Time, On Topic</h2>
+        </header>
+        <main>
+            <h3><em>Latest Articles</em></h3>
+            <article>
+                <time datetime="16-01-2016">
+                    Friday, Jan 16
+                </time>
+                <h4>
+                    International Story
+                </h4>
+                <p>
+                    Curabitur pharetra luctus augue, non posuere orci tristique vel. Sed posuere nisi nec lacus ullamcorper, ac vulputate nisl consequat. Nullam sollicitudin nulla vel felis faucibus aliquam. Nunc sit amet velit orci. Proin sed orci fringilla, elementum felis condimentum, convallis augue. Aliquam erat volutpat. Mauris tempus nunc sit amet aliquet bibendum. Praesent vestibulum cursus ex, quis laoreet eros consectetur ac. Ut congue libero quis mauris egestas feugiat. Sed pharetra lorem et magna fringilla, a volutpat nibh sollicitudin. Nullam sagittis sollicitudin urna, sed sollicitudin mauris ornare id.<a href="https://4kreport.com/a-retweet-from-you-and-elon-musk-could-be-in-nigeria/" target="_blank">Read more...</a> 
+                </p>
+            </article>
+
+            <article>
+    
+                <time datetime="14-01-2016">
+                    Wednesday, Jan 14
+                </time>
+                <h4>
+                    Finance Story
+                </h4>
+                <p>
+                    Nullam tempor mi at libero elementum varius. Sed lobortis lacus feugiat est tristique, nec imperdiet turpis scelerisque. Ut sed urna malesuada, scelerisque dui sit amet, tempus mauris. Integer bibendum egestas urna, a bibendum sem gravida quis. Cras accumsan rhoncus vestibulum. Nam eu blandit leo. Integer at consectetur nunc, et tempus urna. Integer sit amet sollicitudin elit. Donec nec posuere erat. Sed vestibulum nisl neque, vitae tincidunt ex molestie quis. Nulla fringilla viverra turpis in volutpat. Cras vel orci quis velit efficitur ullamcorper sed eu ex. 
+                    <figure>
+                        <img src="./img/chip_debit.png" alt="Debit Card with Chip">
+                        <figcaption>New Debit Cards with Chip-Based Security.</figcaption>
+                    </figure>
+                    Nullam vel ex nec lectus imperdiet luctus vitae vel nibh. Donec eleifend velit eros, eu efficitur justo molestie id. In egestas gravida lectus. Ut ipsum odio, suscipit sit amet molestie non, scelerisque sed mi. Aenean sed augue eu arcu faucibus molestie. Sed eget ante gravida, rhoncus velit eu, tempus quam. Sed fermentum at odio sed commodo. Fusce lobortis cursus purus, quis consequat est faucibus at. Etiam massa felis, sodales at sodales sed, iaculis quis arcu.<a href="https://4kreport.com/tech-meetups-this-march-are-about-wakanda-open-source-and-startups/" target="_blank">Read more...</a>
+                </p>
+            </article>
+
+            <article>
+                
+                <time datetime="14-01-2016">
+                    Wednesday, Jan 14
+                </time>
+                <h4>
+                    Technology Story
+                </h4>
+                <p>
+                    Morbi eget justo ut velit dapibus malesuada. Nunc elementum, neque quis convallis tempus, lacus ante tristique est, id porta tortor leo eget orci. Suspendisse hendrerit interdum lacus et condimentum. Mauris at ex dignissim, bibendum libero at, fermentum lectus. Maecenas porttitor purus quis augue interdum, eget malesuada neque placerat. Ut hendrerit risus in nibh elementum, quis vestibulum ipsum vulputate. Nulla facilisi. In consectetur et lacus vel tincidunt. Quisque feugiat ipsum et erat rhoncus efficitur. In in augue at enim tempor sollicitudin.<a href="https://4kreport.com/extraclass-ng-connecting-tutors-and-students/" target="_blank">Read more..</a>
+                </p>
+            </article>
+        </main>
+            <h4>
+                Sign Up for Our Emails
+            </h4>
+                <summary>
+                    <form name="formcontact" id="formcontact" action="" method="POST">
+                        <label>E-mail Address: </label>
+                        <input type="email" name="emailaddress" id="emailaddress" required="required">
+
+                        <label >Delivery Preference: </label>
+                        <select name="deliverypreference" id="deliverypreference">
+                            <option value="Daily">Daily</option>
+                            <option value="Weekly">Weekly</option>
+                            <option value="Monthly">Monthly</option>  
+                        </select>
+
+                        <input type="submit" value="Sign-Up">
+
+                    </form>
+                </summary>
+
+            <h4>
+                Register with us
+            </h4>
+            <form action="" name="formsignup" id="formsignup">
+                <div>
+                        <label>Username: <input type="text" name="username" id="username" placeholder="Enter your username"
+                        value="" required ><span id="username-error"></span></label><br>
+                
+                        <label>Password: <input type="password" name="password" id="password" value"" required><span id="password-error" ></span></label><br>
+                
+                        <label>Confirm Password: <input type="password" name="confirmpassword" id="confirmpassword" value""></label><br>
+                
+                        <label>Phone Number: <input type="tel" name="number" id="phonenumber" value="" maxlength="11"><span id="phonenumber-error"></span></label><br>
+                
+                        <label>Postal Code: <input type="tel" name="number" id="postalcode" value="" maxlength="6" required><span id="postal-error"></span></label><br>
+                
+                        <label>E-mail: <input type="email" name="email" id="email" value="" required placeholder="Your Email Address"></label><br>
+                
+                
+                
+                        <input type="submit" name="submit" id="submit" placeholder=""
+                        value="OK" onclick="saveForm()">
+                </div>
+        
+               
+        
+        <script type="text/javascript">
+            function saveForm() {
+                var username= document.getElementById("username").value;
+        
+                var password = document.getElementById("password").value;
+        
+                var confirmPassword= document.getElementById("confirmpassword").value;
+        
+                var phoneNumber= document.getElementById("phonenumber").value;
+                var tel= phoneNumber.toString().split('').map(Number);
+        
+                var postalCode= document.getElementById("postalcode").value;
+        
+                var eMail= document.getElementById("email").value;
+        
+            
+                if(username.length < 6) {
+                   document.getElementById("username-error").innerHTML="error";
+                } 
+        
+                if (password.length > 0 && password.length < 8) {
+                    document.getElementById("password-error").innerHTML="Password must be 8 characters or above";
+                    
+                } else if (password.length == 0 || password.length < 8 ) {
+                    document.getElementById("password-error").innerHTML="Fill out password";
+                } else if (password !== confirmPassword) {
+                    alert ("passwords do not match");
+                
+                } else {
+                    alert ("password match");
+                }
+                
+               if((tel[0] === 0) && (tel[1] === 9 || tel[1] === 8 || tel[1] === 7) && (tel[2] === 0 || tel[2] === 1)){
+                   console.log("Proceed");
+               }
+               else if(isNaN(tel)){
+                   console.log("check digits");
+               }
+           else if(tel.length === 0){
+               console.log("Field must not be empty")
+               }
+        
+            if (isNaN(postalCode) || postalCode == "") {
+                console.log ("Must be a digit");
+            } else if (postalCode.length > 0 && postalCode.length < 6) {
+                document.getElementById("postal-error").innerHTML = "Code must be 6 digits.";
+            }
+         }
+        
+        </script>
+        
+            </form>
+    </body>    
+</html>
